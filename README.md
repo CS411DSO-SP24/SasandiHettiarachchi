@@ -12,7 +12,7 @@ Purpose:
   Another feature of this application is to create a list of saved publications, which can be used to create bookmarks to publications of interest for future reference. Users can also delete publications from the saved list if they no longer need those publications. This can be helpful to anyone in academics since it saves them from the burden of browsing through the database each time they want the interested publication. On top of that users of this application can add keywords of their choice to the already existing publications in the databse if they feel like that publications covers the topic area of the keyword. This provides a customized experience allowing users to categorize publications as required.
 
 Demo: 
-https://mediaspace.illinois.edu/media/t/1_nj9ef8xq
+https://mediaspace.illinois.edu/media/t/1_a6ljphz9
 
 Installation: 
 The given datasets in mySQL, mongodb, and Neo4j are used in this application; hence no additional data installation is required.
