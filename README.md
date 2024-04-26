@@ -1,7 +1,7 @@
 # SasandiHettiarachchi
 
-# please replace the usernames, passwords, urls of the databases with your local credential before running the app
-# after executing the cell with the implementation of the dashboard, right-click and select "View Frame Source" to access the URL for the app 
+## please replace the usernames, passwords, urls of the databases with your local credential before running the app
+## after executing the cell with the implementation of the dashboard, right-click and select "View Frame Source" to access the URL for the app 
 
 Title: 
 Keyword-based analysis of the Academic World database
@@ -30,7 +30,8 @@ Database Techniques:
 Three database management systems have been used to implement the components; namely, mySQL, mongoDB, and Neo4j which use relational model, document model, and the graph model respectively.
 When it comes to the mySQL database, 
   * Views have been created to simplify the query expressions in joins. 
-  * Procedures have been created to calculate and output the best publications and top related keywords for the keyword of interest.       * Prepared Statements have been used for every query in order to prevent sql injection since all components of the dashboard take user     inputs to produce outputs.
+  * Procedures have been created to calculate and output the best publications and top related keywords for the keyword of interest.
+  * Prepared Statements have been used for every query in order to prevent sql injection since all components of the dashboard take user inputs to produce outputs.
 
 Extra-Credit Capabilities: 
 In the backend functions which serves the component of adding keywords to an already existing database, before adding the keyword, it is checked whether publication already exists and if so, whether it already has the keyword in it. If the publication exists, it also checks whether the keyword already exists in the database. If not, a new keyword entry is created and then added to the publication, and if the keyword is already in the database, the relationship is created straightforward. This part is queried using both mySQL and Neo4j to manipulate both databases (multi-database querying). 
